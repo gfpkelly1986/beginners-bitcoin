@@ -8,6 +8,8 @@
     border: 0;
 }
 
+/* Set a container to restrain the content width to 85% of the viewport */
+
 .container {
     width: 85%;
     margin: 0 auto;
@@ -15,7 +17,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
+    background-color: #152845;
 }
 
 /* Begin main site header and navigation styling */
@@ -24,6 +26,7 @@ body {
     height: 120px;
     background-color: #ffba4f;
     position: relative;
+    border-bottom: 0.5px solid white;
 }
 
 #main_logo {
@@ -31,6 +34,11 @@ body {
     position: absolute;
     left: 5%;
     top: 60%;
+    letter-spacing: 4px;
+}
+
+#main_logo:hover {
+    transform: scale(1.01);
 }
 
 #header_navigation {
@@ -45,6 +53,20 @@ body {
     padding-right: 35px;
 }
 
+#header_navigation a {
+    text-decoration: none;
+    letter-spacing: 4px;
+    color: #141414;
+    font-weight: 900;
+}
+
+#header_navigation a:hover {
+    background-color: #51606d;
+    padding: 4px;
+    border-radius: 2px;
+    color: white;
+}
+
 #landing_page_main {
     background-image: url('./images/Bitcoin-Images/bitcoin_desktop_bg.jpg');
     height: 800px;
@@ -53,17 +75,4 @@ body {
     background-position: center;
     opacity: 0.9;
     background-size: cover;
-    animation-name: main_image_focus;
-    animation-duration: 4s;
-    animation-fill-mode: forwards; 
-}
-
-@keyframes main_image_focus {
-    from {
-        transform: scale(1.0);
-    }
-    to{
-        transform: scale(1.1);
-        transform: scale(1.0);
-    }
 }
