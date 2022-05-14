@@ -8,9 +8,29 @@
 
 #main_logo {
     font-family: 'Quattrocento Sans', sans-serif;
+    position: absolute;
+    left: 5%;
+    top: 60%;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: aqua;
+}
+.site_header {
+    height: 120px;
+    background-color: #ffba4f;
+    position: relative;
+}
+
+#header_navigation {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+}
+
+#header_navigation li {
+    display: inline-block;
+    line-height: 80px;
+    padding-right: 35px;
 }
