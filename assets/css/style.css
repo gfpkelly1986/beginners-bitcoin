@@ -1,9 +1,29 @@
+/* Imported fonts Quattrocento and Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quattrocento+Sans&family=Raleway:wght@200&display=swap');
 
+/* Move all content to the top left to begin styling*/
 * {
     margin: 0;
     padding: 0;
     border: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: aqua;
+}
+
+/* Begin main site header and navigation styling */
+
+.site_header {
+    height: 120px;
+    background-color: #ffba4f;
+    position: relative;
 }
 
 #main_logo {
@@ -13,19 +33,9 @@
     top: 60%;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
-}
-.site_header {
-    height: 120px;
-    background-color: #ffba4f;
-    position: relative;
-}
-
 #header_navigation {
     position: absolute;
-    right: 5%;
+    right: 4%;
     top: 50%;
 }
 
@@ -33,4 +43,27 @@ body {
     display: inline-block;
     line-height: 80px;
     padding-right: 35px;
+}
+
+#landing_page_main {
+    background-image: url('./images/Bitcoin-Images/bitcoin_desktop_bg.jpg');
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.9;
+    background-size: cover;
+    animation-name: main_image_focus;
+    animation-duration: 4s;
+    animation-fill-mode: forwards; 
+}
+
+@keyframes main_image_focus {
+    from {
+        transform: scale(1.0);
+    }
+    to{
+        transform: scale(1.1);
+        transform: scale(1.0);
+    }
 }
