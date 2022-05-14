@@ -62,10 +62,12 @@ body {
 
 #header_navigation a:hover {
     background-color: #51606d;
-    padding: 4px;
+    padding: 1.5px;
     border-radius: 2px;
     color: white;
 }
+
+/* Start main landing page styling*/
 
 #landing_page_main {
     background-image: url('./images/Bitcoin-Images/bitcoin_desktop_bg.jpg');
@@ -75,4 +77,25 @@ body {
     background-position: center;
     opacity: 0.9;
     background-size: cover;
+    position: relative;
+}
+
+#main_image_headings {
+    height: 800px;
+    width: 40%;
+    text-align: center;
+    /* background-color: #ffba4f; */
+    margin: 0 auto;
+}
+
+#main_image_headings h2 {
+    color: white;
+    letter-spacing: 4px;
+    margin-bottom: 420px;
+    padding-top: 160px;
+}
+
+#main_image_headings h3 {
+    color: white;
+    letter-spacing: 4px;
 }
