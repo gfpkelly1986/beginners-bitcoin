@@ -231,10 +231,6 @@ text-align: center;
 padding-bottom: 20px;
 }
 
-/* #further_reading li:hover {
-    border-bottom: #efefef;
-} */
-
 #further_reading a {
     text-decoration: none;
     color: #141414;
@@ -244,9 +240,45 @@ padding-bottom: 20px;
     border-bottom: 1px solid #efefef;
 }
 
-/* Footer styles */
+
+/* Footer and Social Links */
+
 .site_footer {
     height: 150px;
     width: 100%;
     background-color: whitesmoke;
 }
+
+.social-networks {
+    text-align: center;
+    padding-top: 65px;
+}
+.social-networks li {
+    display: inline;
+    margin: 0 7% 0 7%;
+}
+.social-networks i{
+    font-size: 160%;
+    background-color: white;
+    color: #3a3a3a;
+    border-radius: 50%;
+    padding: 5px;
+}
+.social-networks i:hover {
+    animation-name: icon-increase;
+    animation-duration: 0.3s;
+    animation-fill-mode: forwards;
+}
+
+/* Animation for icons */
+
+@keyframes icon-increase {
+    from {
+        transform: scale(1.0);
+    }
+    to {
+        transform: scale(1.07);
+        border: 0.3px solid #3a3a3a;
+    }
+}
+
