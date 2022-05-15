@@ -79,13 +79,13 @@ body {
     opacity: 0.9;
     background-size: cover;
     position: relative;
+    border-bottom: 1.5px solid white;
 }
 
 #main_image_headings {
     height: 800px;
     width: 40%;
     text-align: center;
-    /* background-color: #ffba4f; */
     margin: 0 auto;
 }
 
@@ -103,11 +103,43 @@ body {
 
 /* Subscribe to our mailing list banner */
 
-#mailing_list {
-    height: 600px;
+#what_is_btc {
+    height: 700px;
     width: 100%;
-    background-color :#ffba4f;
+    background-color :#ffba4f;   
 }
+
+#what_is_btc h2 {
+    text-align: center;
+    color: #141414;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+#what_is_btc p {
+    color: #141414;
+    font-weight:800;
+    width: 70%;
+    margin: 0 auto;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+}
+
+#find_out_icon {
+    color: #141414;
+    font-weight:800;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+}
+
+
 
 /* Meetup styles */
 #meetups {
