@@ -148,16 +148,71 @@ body {
 
 
 
-/* Meetup styles */
+/* Why bitcoin is unique styles */
 #unique_btc {
     height: 600px;
     width: 100%;
     background-color: whitesmoke;
 }
 
+#mailing_list {
+    height: 600px;
+    width: 100%;
+    background-color:#ffba4f;
+}
+
+#reasons_to_subscribe {
+    width: 40%;
+    text-align: left;
+    float: left;
+}
+#reasons_to_subscribe p {
+    color: #141414;
+    font-weight:800;
+    width: 70%;
+    line-height: 35px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+#mailing_list_label {
+    width: 25%;
+    padding-top: 25px;
+    float: left;
+}
+
+#subscriber_list {
+    height: 40px;
+    width: 250px;
+    margin-left: 50px;
+    margin: 30px 0 50px 30px;
+    border: none;
+     /* border: 1px solid white;
+    border-radius: 2px;  */
+    font-family: inherit;
+}
+
+/* #subscriber_list:hover {
+    background-color: #ffba4f;
+    color: white;
+} */
+
+#subscriber_list:focus::placeholder {
+    color: transparent;
+}
+
+
+#further_reading {
+    width: 30%;
+    background-color: aqua;
+    float: right;
+}
+
 /* Footer styles */
 .site_footer {
     height: 150px;
     width: 100%;
-    background-color :#ffba4f;
+    background-color: whitesmoke;
 }
