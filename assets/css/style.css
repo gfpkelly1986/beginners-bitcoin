@@ -188,26 +188,60 @@ body {
     width: 250px;
     margin-left: 50px;
     margin: 30px 0 50px 30px;
-    border: none;
-     /* border: 1px solid white;
-    border-radius: 2px;  */
+    border: 3px solid white;
+    border-radius: 4px;  
     font-family: inherit;
 }
 
-/* #subscriber_list:hover {
-    background-color: #ffba4f;
-    color: white;
-} */
+#subscriber_list:hover {
+    transform: scale(1.01);
+}  
 
 #subscriber_list:focus::placeholder {
     color: transparent;
 }
 
+#subscriber_list:focus {
+    background-color: #efefef;
+    outline: none;
+    color: white;
+    font-weight: 900;
+}
+
+#email_list_button {
+    height: 46px;
+    border: 3px solid white;
+    border-radius: 4px;  
+    font-family: inherit;
+}
+#email_list_button:hover {
+    background-color: white;
+    transform: scale(1.01);
+    font-weight: 800;
+}
+
 
 #further_reading {
     width: 30%;
-    background-color: aqua;
     float: right;
+}
+
+#further_reading li {
+text-align: center;
+padding-bottom: 20px;
+}
+
+/* #further_reading li:hover {
+    border-bottom: #efefef;
+} */
+
+#further_reading a {
+    text-decoration: none;
+    color: #141414;
+}
+
+#further_reading a:hover {
+    border-bottom: 1px solid #efefef;
 }
 
 /* Footer styles */
