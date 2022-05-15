@@ -12,13 +12,13 @@
 <body>
     <!--Header and site logo-->
     <div class="container">    
-        <header class="site_header">
+        <header class="site_header" role="banner">
             <div id="main_logo">
                 <h1><i class="fa-solid fa-bitcoin-sign"></i>eginners <i class="fa-solid fa-bitcoin-sign"></i>itcoin.com</h1>
             </div>
             <!--Site navigation-->
             <nav>
-                <ul id="header_navigation">
+                <ul id="header_navigation" role="navigation" aria-label="Main">
                     <li><a href="">Home</a></li>
                     <li><a href="">Why BTC</a></li>
                     <li><a href="">Fiat</a></li>
@@ -28,20 +28,21 @@
                 </ul>
             </nav>
         </header>
-        <main>
+        
             <!--Structure for the main landing page, img and site goals => (headings)-->
-            <section>
-                <div id="landing_page_main" role="img" aria-label="A bitcoin logo at the center with a network of nodes, pointing to its decentralised nature">
-                    <div id="main_image_headings">
-                        <h2>Learn the Fundamentals of Bitcoin</h2>
-                        <h3>And Why It Stands Alone In the World of Digital Value</h3>
-                    </div>
+        <section role="region" aria-label="Sets out the intended goals of the website">
+            <div id="landing_page_main" role="img" aria-label="A bitcoin logo at the center with a network of nodes, pointing to its decentralised nature">
+                <div id="main_image_headings">
+                    <h2>Learn the Fundamentals of Bitcoin</h2>
+                    <h3>And Why It Stands Alone In the World of Digital Value</h3>
                 </div>
-            </section>
+            </div>
+        </section>
 
+        <main>    
             <!--What is BTC Section-->
             <section>
-                <div id="what_is_btc">
+                <div id="what_is_btc" role="region" aria-label="An overview of Bitcoin">
                     <h2>What is Bitcoin?</h2>
                     <p>Bitcoin at its core is simply a global ledger that records new blocks of transactions to a chain, each new block of transactions is added every ten minutes.
                         This is where the term 'blockchain' originated from.<br><br>
