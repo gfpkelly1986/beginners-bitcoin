@@ -109,7 +109,7 @@ body {
     background-color :#ffba4f;   
 }
 
-#what_is_btc h2 {
+.section_headings {
     text-align: center;
     color: #141414;
     padding-top: 30px;
@@ -118,7 +118,7 @@ body {
     font-weight: bolder;
 }
 
-#what_is_btc p {
+.section_paragraphs {
     color: #141414;
     font-weight:800;
     width: 70%;
@@ -126,6 +126,13 @@ body {
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 1.1rem;
+}
+
+.section_paragraphs ul{
+    list-style: none;
+}
+.section_paragraphs li {
+    line-height: 35px;
 }
 
 #find_out_icon {
@@ -142,7 +149,7 @@ body {
 
 
 /* Meetup styles */
-#meetups {
+#unique_btc {
     height: 600px;
     width: 100%;
     background-color: whitesmoke;
