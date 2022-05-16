@@ -12,13 +12,13 @@
 <body>
     <!--Header and site logo-->
     <div class="container">    
-        <header class="site_header" role="banner">
+        <header class="site_header">
             <div id="main_logo">
                 <h1><i class="fa-solid fa-bitcoin-sign"></i>eginners <i class="fa-solid fa-bitcoin-sign"></i>itcoin.com</h1>
             </div>
             <!--Site navigation-->
             <nav>
-                <ul id="header_navigation" role="navigation" aria-label="Main">
+                <ul id="header_navigation" aria-label="Main navigation links for the website">
                     <li><a href="">Home</a></li>
                     <li><a href="">Why BTC</a></li>
                     <li><a href="">Fiat</a></li>
@@ -30,7 +30,7 @@
         </header>
         
             <!--Structure for the main landing page, img and site goals => (headings)-->
-        <section role="region" aria-label="Sets out the intended goals of the website">
+        <section aria-label="Sets out the intended goals of the website">
             <div id="landing_page_main" role="img" aria-label="A bitcoin logo at the center with a network of nodes, pointing to its decentralised nature">
                 <div id="main_image_headings">
                     <h2>Learn the Fundamentals of Bitcoin</h2>
@@ -42,7 +42,7 @@
         <main>    
             <!--What is BTC Section-->
             <section>
-                <div id="what_is_btc" role="region" aria-label="An overview of Bitcoin">
+                <div id="what_is_btc" aria-label="An overview of Bitcoin">
                     <h2 class="section_headings">What is Bitcoin?</h2>
                     <p class="section_paragraphs">Bitcoin at its core is simply a global ledger that records new blocks of transactions to a chain, each new block of transactions is added every ten minutes.
                         This is where the term 'blockchain' originated.<br><br>
@@ -53,19 +53,18 @@
                         Bitcoin does not have a CEO, a board of directors, a team of marketers or any influence from venture capitalists. It is simply a piece of open source software.
                         <br><br>
                         So what is it that makes Bitcoin unique? Couldn't it just be replicated? Why would governments allow it? What's the issue with fiat currencies? 
-                        <div id="find_out_icon">Find 
-                            out below. <i class="fa-solid fa-hand-point-down"></i>
-                        </div>
-                    </p>
+                    </p>    
+                    <div id="find_out_icon">
+                        Find out below. <i class="fa-solid fa-hand-point-down"></i>
+                    </div>
                 </div>    
             </section>
 
             <!--What makes BTC unique section-->
             <section>
-                <div id="unique_btc" role="region" aria-label="Explanation of what makes Bitcoin unique">
+                <div id="unique_btc" aria-label="Explanation of what makes Bitcoin unique">
                     <h2 class="section_headings">What makes Bitcoin Unique?</h2>
-                    <p class="section_paragraphs">
-                        <h3 class="section_paragraphs">Bitcoin has many unique features that make it valuable:</h3>
+                        <h3 class="section_headings">Bitcoin has many unique features that make it valuable:</h3>
                         <ol class="section_paragraphs">
                             <li>
                                 It is an open source monetary network, anyone can participate.
@@ -73,57 +72,48 @@
                             <li>
                                 It is not a <a href="https://www.investopedia.com/terms/s/security.asp" target="_blank">security</a>.
                             </li>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.google.com/search?q=common+property&oq=common+property&aqs=chrome..69i57j46i512j0i512l8.3224j0j4&sourceid=chrome&ie=UTF-8">
-                                        It is common property
-                                        </a>
-                                    </li>
-                                </ul>
                             <li>
-                                Blocks are created by the process of <a href="https://www.investopedia.com/terms/b/bitcoin-mining.asp">mining</a>. 
+                                It is<a href="https://www.google.com/search?q=common+property&oq=common+property&aqs=chrome..69i57j46i512j0i512l8.3224j0j4&sourceid=chrome&ie=UTF-8">
+                                common property</a>
+                            </li>
+                            <li>
+                                Blocks are created by the process of 
+                                <a href="https://www.investopedia.com/terms/b/bitcoin-mining.asp">mining</a>.
                                 This emulates the difficulty of mining gold.
-                            </li> 
-                            <li>It is immutable. Any block confirmed by the network and added to the chain can never be altered.</li>
-                            <li>The supply is fixed at 21 million coins</li>
-                                <ul>
-                                    <li><a href="https://bitcoin.stackexchange.com/questions/2756/how-is-the-bitcoin-21-million-cap-implemented">
-                                        How is this limit of 21 million immutable?</a>
-                                    </li>
-                                </ul>
+                            </li>
+                            <li>
+                                It is immutable. Any block confirmed by the network and added to the chain can never be altered.
+                            </li>
+                            <li>
+                                The supply is fixed at 21 million coins (How is this limit of 
+                                <a href="https://bitcoin.stackexchange.com/questions/2756/how-is-the-bitcoin-21-million-cap-implemented">21 million an immutable feature?)</a>
+                            </li>
                             <li>
                                 Its a decentralised peer to peer network which eliminates the need for trusted 3rd parties
                             </li>
                             <li>
                                 Through the invention of 'Proof of Work' Bitcoin solved the <em><a href="https://cryptonews.net/news/bitcoin/3180977/" target="_blank">
                                 byzantine generals problem</a></em>
-                                <ul>
-                                    <li>
-                                        This also created the concept of 
-                                        <a href="https://nbx.com/crypto101/what-is-digital-scarcity#:~:text=Digital%20scarcity%20is%20the%20idea,million%20bitcoins%20in%20its%20code.">
-                                        digital scarcity
-                                        </a>.
-                                    </li>
-                                </ul>
-                            </li> 
+                            </li>
                             <li>
-                                It is global, borderless, and 
-                                <a href="https://www.blockchain-council.org/blockchain/permissioned-and-permissionless-blockchains-a-comprehensive-guide/">
-                                permissionless
-                                </a>.
+                                This also created the concept of<a href="https://nbx.com/crypto101/what-is-digital-scarcity#:~:text=Digital%20scarcity%20is%20the%20idea,million%20bitcoins%20in%20its%20code.">
+                                digital scarcity</a>.
+                            </li>
+                            <li>
+                                It is global, borderless, and<a href="https://www.blockchain-council.org/blockchain/permissioned-and-permissionless-blockchains-a-comprehensive-guide/">
+                                permissionless</a>.
                             </li>
                         </ol>
-                    </p>
                 </div>
             </section>
             
-            <section id="mailing_list" class="section_paragraphs" role="region" 
-                aria-label="A section to allow users subscribe to our mailing list for further learning if interested">
+            <section id="mailing_list" class="section_paragraphs" aria-label="A section to allow users subscribe to our mailing list for further learning if interested">
 
                 <h2 class="section_headings">Understanding Bitcoin takes time.</h2>
                 <div id="reasons_to_subscribe">
                     <p>To ease the steep learning curve on the topic we have created a step by step course built for beginners.<br>
-                        It is sent out weekly by email. It starts at the basics of understanding money as we know it today <a href="https://en.wikipedia.org/wiki/Fiat_money">(Fiat Currency)</a>
+                        It is sent out weekly by email. It starts with the basics of understanding the fundamentals of money as we know and use it today 
+                        <a href="https://en.wikipedia.org/wiki/Fiat_money">(Fiat Currency)</a>
                         and builds you up week by week until eventually you will even learn how to route payments through the lightning network via your own node and even begin 
                         mining <i class="fa-solid fa-bitcoin-sign"></i>itcoin at home.  
                     </p>
