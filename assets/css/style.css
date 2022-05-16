@@ -57,7 +57,7 @@ body {
 #header_navigation a {
     text-decoration: none;
     letter-spacing: 4px;
-    color: #141414;
+    color: black;
     font-weight: 900;
 }
 
@@ -101,17 +101,18 @@ body {
     letter-spacing: 4px;
 }
 
-/* Subscribe to our mailing list banner */
+/* What is Bitcoin section styles */
 
 #what_is_btc {
     height: 700px;
     width: 100%;
-    background-color :#ffba4f;   
+    background-color :white;
+    border-bottom: 30px solid #ffba4f;
 }
 
 .section_headings {
     text-align: center;
-    color: #141414;
+    color: black;
     padding-top: 30px;
     padding-bottom: 20px;
     letter-spacing: 3px;
@@ -119,7 +120,7 @@ body {
 }
 
 .section_paragraphs {
-    color: #141414;
+    color: black;
     font-weight:800;
     width: 70%;
     margin: 0 auto;
@@ -152,13 +153,22 @@ body {
 #unique_btc {
     height: 600px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
+    border-bottom: 30px solid #ffba4f;
 }
+
+#unique_btc a {
+    color: black;
+    font-weight: bold;
+}
+
+/*  Mailing List Styles*/
 
 #mailing_list {
     height: 600px;
     width: 100%;
-    background-color:#ffba4f;
+    background-color:white;
+    border-bottom: 30px solid #ffba4f;
 }
 
 #reasons_to_subscribe {
