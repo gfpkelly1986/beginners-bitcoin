@@ -562,12 +562,20 @@ padding-bottom: 20px;
     border-bottom: 1px solid gold;
 }
 
+#recommended_video {
+    background-color:white;
+    border-bottom: 30px solid #ffba4f;
+}
+
 #video_content {
-    height: 600px;
     width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
     background-color: white;
     border-bottom: 30px solid #ffba4f;
 }
+
 /* Animation for icons */
 
 @keyframes icon-increase {
