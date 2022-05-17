@@ -2,11 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quattrocento+Sans&family=Raleway:wght@200&display=swap');
 
 /* Move all content to the top left to begin styling*/
-* {
+/* * {
     margin: 0;
     padding: 0;
     border: 0;
-}
+} */
 
 /* Set a container to restrain the content width to 85% of the viewport */
 
@@ -103,6 +103,7 @@ body {
 
 .section_headings {
     text-align: center;
+    margin: 0 auto;
     color: black;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -111,10 +112,12 @@ body {
 }
 
 .section_paragraphs {
+    text-align: center;
+    margin: 0 auto;
     color: black;
     font-weight:800;
     width: 70%;
-    margin: 0 auto;
+    
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 1.1rem;
@@ -126,32 +129,64 @@ body {
 .section_paragraphs li {
     line-height: 35px;
 }
+
+
+
+
+
 /* What is Bitcoin section styles */
 
 #what_is_btc {
-    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     background-color :white;
     border-bottom: 30px solid #ffba4f;
 }
 
+#what_is_btc p {
+    color: black;
+    font-weight:800;
+    width: 70%;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
+}
+
 #find_out_icon {
     color: #141414;
     font-weight:800;
-    text-align: center;
-    margin: 0 auto;
     padding-top: 40px;
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 1.1rem;
 }
 
+
+
+
+
+
+
+
+
 /* Why bitcoin is unique styles */
 #unique_btc {
-    height: 600px;
     width: 100%;
     background-color: white;
     border-bottom: 30px solid #ffba4f;
+}
+
+#unique_btc ol li {
+    float: left;
+    margin-left: 200px;
+    color: black;
+    font-weight:800;
+    width: 70%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
 }
 
 .clean_link {
@@ -162,6 +197,7 @@ body {
 /*  Mailing List Styles*/
 
 #mailing_list {
+    clear: both;
     height: 600px;
     width: 100%;
     background-color:white;
@@ -278,267 +314,6 @@ padding-bottom: 20px;
     animation-fill-mode: forwards;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quattrocento+Sans&family=Raleway:wght@200&display=swap');
-
-/* Move all content to the top left to begin styling*/
-* {
-    margin: 0;
-    padding: 0;
-    border: 0;
-}
-
-/* Set a container to restrain the content width to 85% of the viewport */
-
-.container {
-    width: 85%;
-    margin: 0 auto;
-}
-
-body {
-    font-family: 'Montserrat', sans-serif;
-    background-color: #152845;
-    padding-bottom: 40px;
-}
-
-/* Begin main site header and navigation styling */
-
-.site_header {
-    height: 120px;
-    background-color: #ffba4f;
-    position: relative;
-    border-bottom: 0.5px solid white;
-}
-
-#main_logo {
-    font-family: 'Quattrocento Sans', sans-serif;
-    position: absolute;
-    left: 5%;
-    top: 60%;
-    letter-spacing: 4px;
-}
-
-#main_logo:hover {
-    transform: scale(1.01);
-}
-
-#header_navigation {
-    position: absolute;
-    right: 4%;
-    top: 50%;
-}
-
-#header_navigation li {
-    display: inline-block;
-    line-height: 80px;
-    padding-right: 35px;
-}
-
-#header_navigation a {
-    text-decoration: none;
-    letter-spacing: 4px;
-    color: black;
-    font-weight: 900;
-}
-
-#header_navigation a:hover {
-    background-color: #51606d;
-    padding: 1.5px;
-    border-radius: 2px;
-    color: white;
-}
-
-/* Start main landing page styling*/
-
-#landing_page_main {
-    background-image: url('./images/Bitcoin-Images/bitcoin_desktop_bg.jpg');
-    height: 800px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.9;
-    background-size: cover;
-    position: relative;
-    border-bottom: 1.5px solid white;
-}
-
-#main_image_headings {
-    height: 800px;
-    width: 40%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#main_image_headings h2 {
-    color: white;
-    letter-spacing: 4px;
-    margin-bottom: 420px;
-    padding-top: 160px;
-}
-
-#main_image_headings h3 {
-    color: white;
-    letter-spacing: 4px;
-}
-
-/* What is Bitcoin section styles */
-
-#what_is_btc {
-    height: 700px;
-    width: 100%;
-    background-color :white;
-    border-bottom: 30px solid #ffba4f;
-}
-
-.section_headings {
-    text-align: center;
-    color: black;
-    padding-top: 30px;
-    padding-bottom: 20px;
-    letter-spacing: 3px;
-    font-weight: 900;
-}
-
-.section_paragraphs {
-    color: black;
-    font-weight:800;
-    width: 70%;
-    margin: 0 auto;
-    line-height: 30px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-}
-
-.section_paragraphs ul{
-    list-style: none;
-}
-.section_paragraphs li {
-    line-height: 35px;
-}
-
-#find_out_icon {
-    color: #141414;
-    font-weight:800;
-    text-align: center;
-    margin: 0 auto;
-    padding-top: 40px;
-    line-height: 30px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-}
-
-/* Why bitcoin is unique styles */
-#unique_btc {
-    height: 600px;
-    width: 100%;
-    background-color: white;
-    border-bottom: 30px solid #ffba4f;
-}
-
-.clean_link {
-    color: black;
-    font-weight: bold;
-}
-
-/*  Mailing List Styles*/
-
-#mailing_list {
-    height: 600px;
-    width: 100%;
-    background-color:white;
-    border-bottom: 30px solid #ffba4f;
-}
-
-#reasons_to_subscribe {
-    width: 40%;
-    text-align: left;
-    float: left;
-}
-#reasons_to_subscribe p {
-    width: 70%;
-    line-height: 35px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-    margin: 0 auto;
-    padding-top: 25px;
-}
-
-#mailing_list_label {
-    width: 25%;
-    padding-top: 25px;
-    float: left;
-}
-
-#mailing_list_label label > h3{
-    border-bottom: 1px solid gold;
-}
-
-#subscriber_list {
-    height: 40px;
-    width: 250px;
-    margin-left: 50px;
-    margin: 30px 0 50px 30px;
-    background-color: #efefef;
-    border: 3px solid white;
-    border-radius: 4px;  
-    font-family: inherit;
-}
-
-#subscriber_list:hover {
-    transform: scale(1.01);
-}  
-
-#subscriber_list:focus::placeholder {
-    color: transparent;
-}
-
-#subscriber_list:focus {
-    background-color: #efefef;
-    outline: none;
-    color: black;
-    font-weight: 900;
-}
-
-#email_list_button {
-    height: 46px;
-    border: 3px solid white;
-    border-radius: 4px;  
-    font-family: inherit;
-}
-#email_list_button:hover {
-    background-color: white;
-    transform: scale(1.01);
-    font-weight: 800;
-}
-
-#further_reading {
-    width: 30%;
-    float: right;
-}
-
-#further_reading li {
-text-align: center;
-padding-bottom: 20px;
-}
-
-#further_reading a {
-    text-decoration: none;
-    color: #141414;
-}
-
-#further_reading a:hover {
-    border-bottom: 2px solid black;
-}
-
-#recommended_reading {
-    border-bottom: 1px solid gold;
-}
-
-#recommended_watching {
-    background-color:white;
-    padding-bottom: 30px;
-    clear: both;
-}
-
 #video_content {   /*parent*/
     width: 100%;
     height: auto;
@@ -553,35 +328,6 @@ padding-bottom: 20px;
     border: 5px solid whitesmoke;
 }
 
-/* Footer and Social Links */
-
-#site_footer {
-    height: 150px;
-    width: 100%;
-    background-color :#ffba4f;
-}
-
-.social-networks {
-    text-align: center;
-    padding-top: 65px;
-}
-.social-networks li {
-    display: inline;
-    margin: 0 7% 0 7%;
-}
-.social-networks i{
-    font-size: 160%;
-    background-color: white;
-    color: #3a3a3a;
-    border-radius: 50%;
-    padding: 5px;
-}
-.social-networks i:hover {
-    animation-name: icon-increase;
-    animation-duration: 0.3s;
-    animation-fill-mode: forwards;
-}
-
 /* Animation for icons */
 
 @keyframes icon-increase {
@@ -593,17 +339,3 @@ padding-bottom: 20px;
         border: 0.3px solid #3a3a3a;
     }
 }
-
-
-/* Animation for icons */
-
-@keyframes icon-increase {
-    from {
-        transform: scale(1.0);
-    }
-    to {
-        transform: scale(1.07);
-        border: 0.3px solid #3a3a3a;
-    }
-}
-
