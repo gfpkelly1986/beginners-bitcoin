@@ -1,15 +1,6 @@
 /* Imported fonts Quattrocento and Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quattrocento+Sans&family=Raleway:wght@200&display=swap');
 
-/* Move all content to the top left to begin styling*/
-/* * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-} */
-
-/* Set a container to restrain the content width to 85% of the viewport */
-
 .container {
     width: 85%;
     margin: 0 auto;
@@ -117,7 +108,6 @@ body {
     color: black;
     font-weight:800;
     width: 70%;
-    
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 1.1rem;
@@ -130,28 +120,15 @@ body {
     line-height: 35px;
 }
 
-
-
-
-
 /* What is Bitcoin section styles */
 
-#what_is_btc {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#what_is_btc{
     width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
     background-color :white;
     border-bottom: 30px solid #ffba4f;
-}
-
-#what_is_btc p {
-    color: black;
-    font-weight:800;
-    width: 70%;
-    line-height: 30px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
 }
 
 #find_out_icon {
@@ -163,54 +140,38 @@ body {
     font-size: 1.1rem;
 }
 
-
-
-
-
-
-
-
-
 /* Why bitcoin is unique styles */
 #unique_btc {
     width: 100%;
+    height: auto;
     background-color: white;
     border-bottom: 30px solid #ffba4f;
 }
 
-#unique_btc ol li {
-    float: left;
-    margin-left: 200px;
-    color: black;
-    font-weight:800;
-    width: 70%;
-    line-height: 40px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-}
-
-.clean_link {
-    color: black;
-    font-weight: bold;
-}
-
 /*  Mailing List Styles*/
 
-#mailing_list {
+#mail_list_layout {
     clear: both;
     height: 600px;
-    width: 100%;
     background-color:white;
     border-bottom: 30px solid #ffba4f;
+    width: 100%;
+    height: auto;
+
+    display: inline;
+    /* text-align: center;
+    margin: 0 auto; */
 }
 
+
+
 #reasons_to_subscribe {
-    width: 40%;
-    text-align: left;
-    float: left;
+    width: 33%;
+    height: auto;
+    display: inline-block;
 }
+
 #reasons_to_subscribe p {
-    width: 70%;
     line-height: 35px;
     letter-spacing: 3px;
     font-size: 1.1rem;
@@ -218,7 +179,12 @@ body {
     padding-top: 25px;
 }
 
-#mailing_list_label {
+#mail_list_container {
+    width: 33%;
+    height: auto;
+    display: inline-block;
+}
+/* #mailing_list_label {
     width: 25%;
     padding-top: 25px;
     float: left;
@@ -226,7 +192,7 @@ body {
 
 #mailing_list_label label > h3{
     border-bottom: 1px solid gold;
-}
+} */
 
 #subscriber_list {
     height: 40px;
@@ -267,8 +233,9 @@ body {
 }
 
 #further_reading {
-    width: 30%;
-    float: right;
+    width: 33%;
+    height: auto;
+    display: inline-block;
 }
 
 #further_reading li {
@@ -281,21 +248,51 @@ padding-bottom: 20px;
     color: #141414;
 }
 
+.clean_link {
+    color: black;
+    font-weight: bold;
+} 
+
 #further_reading a:hover {
     border-bottom: 2px solid black;
 }
 
+
+/* start rtecommended watching styles*/
+#recommended_watching {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#video_content {   /*parent*/
+    width: 100%;
+    height: auto;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#video_content iframe { /*child*/
+    width: 60%;
+    height: 350px;
+    border: 5px solid whitesmoke;
+}
+
 /* Footer and Social Links */
 
-.site_footer {
+#site_footer {
     height: 150px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: #ffba4f;
 }
 
 .social-networks {
     text-align: center;
     padding-top: 65px;
+    margin-top: 0;
 }
 .social-networks li {
     display: inline;
@@ -313,21 +310,6 @@ padding-bottom: 20px;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
 }
-
-#video_content {   /*parent*/
-    width: 100%;
-    height: auto;
-    background-color: whitesmoke;
-    text-align: center;
-    margin: 0 auto;
-}
-
-#video_content iframe {
-    width: 60%;
-    height: 350px;
-    border: 5px solid whitesmoke;
-}
-
 /* Animation for icons */
 
 @keyframes icon-increase {

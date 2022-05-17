@@ -44,8 +44,8 @@
             <!--What is BTC Section-->
             <section aria-label="An overview of Bitcoin">
                 <div id="what_is_btc">
-                    <h2>What is Bitcoin?</h2>
-                    <p>Bitcoin at its core is simply a global ledger that records new blocks of transactions to a chain, each new block of transactions is added every ten minutes.
+                    <h2 class="section_headings">What is Bitcoin?</h2>
+                    <p class="section_paragraphs">Bitcoin at its core is simply a global ledger that records new blocks of transactions to a chain, each new block of transactions is added every ten minutes.
                         This is where the term 'blockchain' originated.<br><br>
                         Bitcoin is a new form of money, one more suitable for the increasingly digital world in which we find 
                         ourselves in. Bitcoin is not to be confused with buzzwords such as 'Crypto'. This term was highjacked by bad actors to sell unlicenced securities 
@@ -67,7 +67,7 @@
                 <div id="unique_btc" >
                     <h2 class="section_headings">What makes Bitcoin Unique?</h2>
                         <h3 class="section_headings">Bitcoin has many unique features that make it valuable:</h3>
-                        <ol>
+                        <ol class="section_paragraphs">
                             <li>
                                 It is an open source monetary network, anyone can participate.
                             </li>
@@ -112,70 +112,71 @@
             </section>
         </main>
         <!--End main content-->
-            <section id="mailing_list" class="section_paragraphs" aria-label="A section to allow users subscribe to our mailing list for further learning if interested">
-
+            <section class="section_paragraphs" aria-label="A section to allow users subscribe to our mailing list for further learning if interested">
                 <h2 class="section_headings">Understanding Bitcoin takes time.</h2>
-                <div id="reasons_to_subscribe">
-                    <p>To ease the steep learning curve on the topic we have created a step by step course built for beginners.<br>
-                        It is sent out weekly by email. It starts with the basics of understanding the fundamentals of money as we know and use it today 
-                        <a href="https://en.wikipedia.org/wiki/Fiat_money" class="clean_link">(Fiat Currency)</a>
-                        and builds you up week by week until eventually you will learn how to route payments through the lightning network via your own node and even begin 
-                        mining <i class="fa-solid fa-bitcoin-sign"></i>itcoin at home.  
-                    </p>
-                </div>
-                <div id="mailing_list_label">
-                    <form action="#" method="#">
-                        <label  for="subscriber_list">
-                            <span>Subscribe to Our Mailing List:</span>
-                        </label>
-                        <input type="email" id="subscriber_list" name="email" placeholder="Enter Email Address" required>
-                        <button type="submit" id="email_list_button">Join Our List!</button>
-                    </form>
-                    
-                    <h3 class="section_headings">Testimonials</h3>
-        
-                    <p>'The Beginners Bitcoin newsletter is a great read each week'</p>
-                    <br><br>
-                    <p>'This newsletter has changed the way I think about money'</p>
-                </div> 
-
-                <!-- Structure of further reading area-->
-                <aside role="region" aria-label="A list of further reading materials by experts in the field">
-                    <div id="further_reading">
-                        <h3 class="section_headings"><em id="recommended_reading">Further Reading:</em></h3>
-                            <ul>
-                                <li>
-                                    <a href="https://www.amazon.co.uk/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861" target="_blank">The Bitcoin Standard</a>
-                                </li>
-                                <li>
-                                    <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">The Bitcoin Whitepaper</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.amazon.co.uk/Fiat-Standard-Slavery-Alternative-Civilization/dp/1544526474/ref=pd_lpo_1?pd_rd_i=1544526474&psc=1" target="_blank">The Fiat Standard</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.lynalden.com/what-is-money/" target="_blank">Lyn Alden, What is Money</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.allenandunwin.com/browse/books/academic-professional/economics/Beyond-Bitcoin-Steven-Boykey-Sidley--Simon-Dingle-9781785788307" target="_blank">Beyond Bitcoin</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.amazon.co.uk/Inventing-Bitcoin-Technology-Decentralized-Explained-ebook/dp/B07MWXRWNB" target="_blank">Inventing Bitcoin</a>
-                                </li>
-                                <li>
-                                    <a href="https://www.readinglength.com/book/isbn-194791006X" target="_blank">The Internet of Money</a>
-                                </li>
-                            </ul>   
+                <div id="mail_list_layout">    
+                    <div id="reasons_to_subscribe">
+                        <p>To ease the steep learning curve on the topic we have created a step by step course built for beginners.<br>
+                            It is sent out weekly by email. It starts with the basics of understanding the fundamentals of money as we know and use it today 
+                            <a href="https://en.wikipedia.org/wiki/Fiat_money" class="clean_link">(Fiat Currency)</a>
+                            and builds you up week by week until eventually you will learn how to route payments through the lightning network via your own node and even begin 
+                            mining <i class="fa-solid fa-bitcoin-sign"></i>itcoin at home.  
+                        </p>
                     </div>
-                </aside>
+                    <div id="mail_list_container">
+                        <form action="#" method="#">
+                            <label  for="subscriber_list">
+                                <span>Subscribe to Our Mailing List:</span>
+                            </label>
+                            <input type="email" id="subscriber_list" name="email" placeholder="Enter Email Address" required>
+                            <button type="submit" id="email_list_button">Join Our List!</button>
+                        </form>
+                        
+                        <h3 class="section_headings">Testimonials</h3>
+            
+                        <p>'The Beginners Bitcoin newsletter is a great read each week'</p>
+                        <br><br>
+                        <p>'This newsletter has changed the way I think about money'</p>
+                    </div>
+                        <!-- Structure of further reading area-->
+                    <aside role="region" aria-label="A list of further reading materials by experts in the field">
+                        <div id="further_reading">
+                            <h3 class="section_headings"><em id="recommended_reading">Further Reading:</em></h3>
+                                <ul>
+                                    <li>
+                                        <a href="https://www.amazon.co.uk/Bitcoin-Standard-Decentralized-Alternative-Central/dp/1119473861" target="_blank">The Bitcoin Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://bitcoin.org/bitcoin.pdf" target="_blank">The Bitcoin Whitepaper</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.amazon.co.uk/Fiat-Standard-Slavery-Alternative-Civilization/dp/1544526474/ref=pd_lpo_1?pd_rd_i=1544526474&psc=1" target="_blank">The Fiat Standard</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.lynalden.com/what-is-money/" target="_blank">Lyn Alden, What is Money</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.allenandunwin.com/browse/books/academic-professional/economics/Beyond-Bitcoin-Steven-Boykey-Sidley--Simon-Dingle-9781785788307" target="_blank">Beyond Bitcoin</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.amazon.co.uk/Inventing-Bitcoin-Technology-Decentralized-Explained-ebook/dp/B07MWXRWNB" target="_blank">Inventing Bitcoin</a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.readinglength.com/book/isbn-194791006X" target="_blank">The Internet of Money</a>
+                                    </li>
+                                </ul>   
+                        </div>
+                    </aside>
+                </div>    
             </section>
-
-            <!-- Recommended watching video section -->
+            
+           
+            <div id="recommended_watching">
+                <h2 class="section_headings">Recommended Watching</h2>
+                <h3 class="section_headings">These videos are recommended to advance your fundamental understanding of what Bitcoin is and what problems it solves.</h3>
+            </div>
+            
             <section aria-label="Recommended video content to learn the fundamentals Bitcoin and Fiat currencies">
-                <div id="recommended_watching">
-                    <h2 class="section_headings">Recommended Watching</h2>
-                    <h3 class="section_headings">These videos are recommended to advance your fundamental understanding of what Bitcoin is and what problems it solves.</h3>
-                </div>
                 <div id="video_content">
                         <iframe src="https://www.youtube.com/embed/gp4U5aH_T6A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     
@@ -186,6 +187,7 @@
                         <iframe src="https://www.youtube.com/embed/s_VbDp_bq2w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
             </section>
+        
     
         <!--Site Footer-->
         <footer id="site_footer">
