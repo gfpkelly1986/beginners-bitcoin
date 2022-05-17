@@ -542,7 +542,7 @@ padding-bottom: 20px;
 #video_content {   /*parent*/
     width: 100%;
     height: auto;
-    background-color: white;
+    background-color: whitesmoke;
     text-align: center;
     margin: 0 auto;
 }
@@ -550,15 +550,15 @@ padding-bottom: 20px;
 #video_content iframe {
     width: 60%;
     height: 350px;
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
 }
 
 /* Footer and Social Links */
 
-.site_footer {
+#site_footer {
     height: 150px;
     width: 100%;
-    background-color: whitesmoke;
+    background-color :#ffba4f;
 }
 
 .social-networks {
