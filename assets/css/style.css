@@ -1,9 +1,15 @@
 /* Imported fonts Quattrocento and Montserrat */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Quattrocento+Sans&family=Raleway:wght@200&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 .container {
     width: 85%;
     margin: 0 auto;
+    background-color: white;
 }
 
 body {
@@ -15,7 +21,8 @@ body {
 /* Begin main site header and navigation styling */
 
 .site_header {
-    height: 120px;
+    height: 20px;
+    padding-bottom: 100px;
     background-color: #ffba4f;
     position: relative;
     border-bottom: 0.5px solid white;
@@ -25,7 +32,7 @@ body {
     font-family: 'Quattrocento Sans', sans-serif;
     position: absolute;
     left: 5%;
-    top: 60%;
+    top: 40%;
     letter-spacing: 4px;
 }
 
@@ -36,7 +43,7 @@ body {
 #header_navigation {
     position: absolute;
     right: 4%;
-    top: 50%;
+    top: 30%;
 }
 
 #header_navigation li {
@@ -84,6 +91,7 @@ body {
     color: white;
     letter-spacing: 4px;
     margin-bottom: 420px;
+    margin-top: 0;
     padding-top: 160px;
 }
 
@@ -128,7 +136,7 @@ body {
     text-align: center;
     margin: 0 auto;
     background-color :white;
-    border-bottom: 30px solid #ffba4f;
+    border-bottom: 20px solid #ffba4f;
 }
 
 #find_out_icon {
@@ -145,64 +153,58 @@ body {
     width: 100%;
     height: auto;
     background-color: white;
-    border-bottom: 30px solid #ffba4f;
+    border-bottom: 20px solid #ffba4f;
 }
 
-/*  Mailing List Styles*/
+/*  Mailing List Styles */
 
-#mail_list_layout {
-    clear: both;
-    height: 600px;
-    background-color:white;
-    border-bottom: 30px solid #ffba4f;
-    width: 100%;
-    height: auto;
-
-    display: inline;
-    /* text-align: center;
-    margin: 0 auto; */
+#mail_list_heading {
+    background-color: white;
 }
-
-
 
 #reasons_to_subscribe {
-    width: 33%;
-    height: auto;
-    display: inline-block;
-}
-
-#reasons_to_subscribe p {
-    line-height: 35px;
-    letter-spacing: 3px;
-    font-size: 1.1rem;
-    margin: 0 auto;
-    padding-top: 25px;
-}
-
-#mail_list_container {
-    width: 33%;
-    height: auto;
-    display: inline-block;
-}
-/* #mailing_list_label {
-    width: 25%;
-    padding-top: 25px;
+    margin: 0;
+    padding: 40px;
+    width: 26.5%;
     float: left;
+    background-color: white;
+}
+#reasons_to_subscribe p {
+    padding-bottom: 30px;
 }
 
-#mailing_list_label label > h3{
-    border-bottom: 1px solid gold;
-} */
+#mail_list_layout {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 60px;
+    background-color: white;
+}
+
+#testimonials {
+    margin: 0;
+    width: 26.5%;
+    padding: 40px;
+    float: right;
+    background-color: white;
+}
+
+#further_reading ul {
+    list-style-type: none;
+}
 
 #subscriber_list {
     height: 40px;
     width: 250px;
     margin-left: 50px;
-    margin: 30px 0 50px 30px;
+    margin: 30px 0 5px 0px;
     background-color: #efefef;
     border: 3px solid white;
-    border-radius: 4px;  
+    border-radius: 4px;
     font-family: inherit;
+}
+
+form span {
+    padding-left: 25px;
 }
 
 #subscriber_list:hover {
@@ -232,14 +234,12 @@ body {
     font-weight: 800;
 }
 
-#further_reading {
-    width: 33%;
-    height: auto;
-    display: inline-block;
-}
+
+/* #further_reading {
+    
+} 
 
 #further_reading li {
-text-align: center;
 padding-bottom: 20px;
 }
 
@@ -255,13 +255,14 @@ padding-bottom: 20px;
 
 #further_reading a:hover {
     border-bottom: 2px solid black;
-}
-
+} */
 
 /* start rtecommended watching styles*/
 #recommended_watching {
+    clear: both;
     width: 100%;
     height: auto;
+    border-top: 20px solid #ffba4f;
     background-color: white;
     text-align: center;
     margin: 0 auto;
