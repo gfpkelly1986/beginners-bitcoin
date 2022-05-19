@@ -152,8 +152,17 @@ body {
 #unique_btc {
     width: 100%;
     height: auto;
-    background-color: white;
     border-bottom: 20px solid #ffba4f;
+}
+
+#unique_btc ol {
+    margin: 0 auto;
+    color: black;
+    font-weight:800;
+    width: 70%;
+    line-height: 40px;
+    letter-spacing: 3px;
+    font-size: 1.1rem;
 }
 
 /*  Mailing List Styles */
@@ -164,13 +173,19 @@ body {
 
 #reasons_to_subscribe {
     margin: 0;
-    padding: 40px;
+    padding: 40px 70px 40px 30px;
     width: 26.5%;
     float: left;
-    background-color: white;
 }
 #reasons_to_subscribe p {
     padding-bottom: 30px;
+    line-height: 40px;
+    letter-spacing: 4px;
+    font-weight: 900;
+}
+
+form {
+    padding-bottom: 90px;
 }
 
 #mail_list_layout {
@@ -188,23 +203,42 @@ body {
     background-color: white;
 }
 
-#further_reading ul {
-    list-style-type: none;
+#testimonials h3 {
+    padding-bottom: 50px;
+}
+
+#testimonials img {
+    margin-top: 40px;
+}
+
+#further_reading {
+    width: 30%;
+    min-height: 352px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#further_reading a {
+    text-decoration: none;
+    font-style: inherit;
+
+}
+
+#further_reading a:hover {
+    border-bottom:1px solid #141414;
 }
 
 #subscriber_list {
     height: 40px;
-    width: 250px;
+    width: 40%;
     margin-left: 50px;
     margin: 30px 0 5px 0px;
     background-color: #efefef;
     border: 3px solid white;
     border-radius: 4px;
     font-family: inherit;
-}
-
-form span {
-    padding-left: 25px;
 }
 
 #subscriber_list:hover {
