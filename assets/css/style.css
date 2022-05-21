@@ -50,6 +50,30 @@ body {
     transform: scale(1.01);
 }
 
+#submit_form_result h1 {
+    margin-top: 120px;
+}
+
+
+#hamburger_menu:active {
+    background-color: aqua;
+}
+
+#hamburger_menu:hover {
+    background-color: #ffba4f;
+} 
+
+#header_navigation_mobile::before {
+    visibility: hidden;
+}
+#header_navigation_mobile::after {
+    visibility:visible;
+}
+
+
+
+
+
 #header_navigation {
     position: absolute;
     right: 4%;
@@ -458,6 +482,26 @@ padding-bottom: 20px;
     #main_logo {
         display: block;
     }
+}
+
+@media screen and (max-width: 500px) {
+    #main_logo {
+        left: 10%;
+        top: 0%;
+    }
+
+    #header_navigation {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: absolute;
+    right: 4%;
+    left: 35%;
+    top: 20%;
+}
+.site_header {
+    height: 200px;
+}
 }
 
 
