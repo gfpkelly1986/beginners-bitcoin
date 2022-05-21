@@ -135,11 +135,16 @@
                     </p>
                     <img src="./assets/css/images/Bitcoin-Images/pexels-alesia-kozik-6765369.jpg"  width="100%" height="300px" alt="">
                 </div>
-                <form id="mail_list_layout" action="#" method="#">
+                <form id="mail_list_layout" action="submitform.html" target="_blank">
                     <label  for="subscriber_list">
                         <h3>Subscribe to Our Mailing List:</h3><br>
                     </label>
                     <input type="email" id="subscriber_list" name="email" placeholder="Enter Email Address" required>
+
+                    <label for="subscriber_name">
+                        <h3 id="subscriber_name_heading">Name:</h3>
+                    </label>
+                    <input type="text" id="subscriber_name" name="subscriber_name" placeholder="Enter First Name" required>
                     <button type="submit" id="email_list_button">Join Our List!</button>
                 </form>
                 <div id="further_reading">

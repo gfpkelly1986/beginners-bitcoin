@@ -189,7 +189,7 @@ body {
 }
 
 form {
-    padding-bottom: 90px;
+    padding-bottom: 65px;
 }
 
 #mail_list_layout {
@@ -235,10 +235,10 @@ form {
 }
 
 #subscriber_list {
-    height: 40px;
+    height: 35px;
     width: 40%;
-    margin-left: 50px;
-    margin: 30px 0 5px 0px;
+    text-align: center;
+    margin: 0px 0 10px 0px;
     background-color: #efefef;
     border: 3px solid white;
     border-radius: 4px;
@@ -260,8 +260,38 @@ form {
     font-weight: 900;
 }
 
+#subscriber_name {
+    display: block;
+    background-color: #efefef;
+    height: 35px;
+    margin-bottom:10px 0 0 15px;
+    font-family: inherit;
+    text-align: center;
+}
+
+#subscriber_name_heading {
+    margin-bottom: 10px;
+}
+
+#subscriber_name:hover {
+    transform: scale(1.01);
+}  
+
+#subscriber_name:focus::placeholder {
+    color: transparent;
+}
+
+#subscriber_name:focus {
+    background-color: #efefef;
+    outline: none;
+    color: black;
+    font-weight: 900;
+}
+
+
 #email_list_button {
     height: 46px;
+    margin-top: 10px;
     border: 3px solid white;
     border-radius: 4px;  
     font-family: inherit;
@@ -307,11 +337,13 @@ padding-bottom: 20px;
 }
 
 #video_content {   /*parent*/
-    width: 100%;
+    width: 39.5%;
     height: auto;
     background-color: whitesmoke;
-    text-align: center;
-    margin: 0 auto;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: flex-start;
 }
 
 #video_content iframe { /*child*/
