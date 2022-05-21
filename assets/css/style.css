@@ -479,30 +479,123 @@ padding-bottom: 20px;
 }
 
 @media screen and (max-width: 500px) {
+
+    .container {
+        width: 100%;
+    }
+    .site_header {
+        width: 100%;
+        left: 0;
+    }
     #main_logo {
         display: block;
     }
 }
 
 @media screen and (max-width: 500px) {
-    #main_logo {
-        left: 10%;
-        top: 0%;
-    }
+#main_logo {
+    left: 15%;
+    top: 0%;
+    text-align: center;
+    padding-top: 10px;
+}
 
-    #header_navigation {
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    position: absolute;
-    right: 4%;
-    left: 35%;
-    top: 20%;
+#second_logo_heading {
+    margin-bottom: 15px;
+}
+
+#header_navigation {
+    top: 41%;
+    border-top: 3px solid white;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+#header_navigation li {
+    line-height: 1px;
+    padding-right: 1%;
+    margin-top: 30px;
+    float: none;
 }
 .site_header {
-    height: 200px;
+    height: 100px;
 }
+
+#main_image_headings {
+    width: 80%;
+    text-align: center;
 }
 
+#main_image_headings h2 {
+    padding-top: 130px;
+}
 
+#reasons_to_subscribe {
+    margin: 0;
+    padding: 5% 0px 40px 4%;
+    width: 95%;
+    /* float: left; */
+}
 
+.section_headings {
+    text-align: left;
+    padding: 5%;
+    letter-spacing: 2px;
+}
+
+#reasons_to_subscribe p {
+    padding-bottom: 30px;
+    line-height: 30px;
+    letter-spacing: 3px;
+    font-weight: 900;
+}
+
+#testimonials {
+    margin: 0 0 5% 5%;
+    width: 90%;
+    padding: 0;
+    float: none;
+}
+
+#mail_list_layout {
+    width: 100%;
+    text-align: center;
+    padding-top: 60px;
+}
+
+#subscriber_name {
+    display: inline;
+}
+
+#subscriber_name_heading {
+    position: relative;
+    left: -30%;
+}
+
+#further_reading {
+    width: 100%;
+}
+
+#recommended_watching {
+    width: 100%;
+    line-height: 30px;
+}
+
+#video_content {
+    width: 100%;
+    flex-direction: column;
+}
+
+#video_content iframe {
+    width: 100%;
+}
+
+.social-networks li {
+    margin: 0 5% 0 5%;
+}
+
+#back_to_top {
+    visibility: hidden;
+}
+
+}
