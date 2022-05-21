@@ -22,7 +22,11 @@ body {
     height: 20px;
     padding-bottom: 100px;
     background-color: #ffba4f;
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 7.5%;
+    right: 7.5%;
+    z-index: 1;
     border-bottom: 0.5px solid white;
 }
 
@@ -31,6 +35,8 @@ body {
     position: absolute;
     left: 5%;
     top: 40%;
+    display: flex;
+    flex-direction: row;
     letter-spacing: 4px;
 }
 
@@ -74,7 +80,8 @@ body {
 
 #landing_page_main {
     background-image: url('./images/Bitcoin-Images/bitcoin_desktop_bg.jpg');
-    height: 800px;
+    height: 900px;
+    margin-top: 100px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +103,7 @@ body {
     letter-spacing: 4px;
     margin-bottom: 420px;
     margin-top: 0;
-    padding-top: 160px;
+    padding-top: 200px;
 }
 
 #main_image_headings h3 {
@@ -394,8 +401,22 @@ padding-bottom: 20px;
     }
 }
 
-@media screen and (max-width: 1600px) {
-    .site_header {
+ @media screen and (max-width: 1600px) {
+
+#header_navigation {
+    position: absolute;
+    right: 4%;
+    left: 4%;
+    top: 50%;
+}
+#main_logo {
+    position: absolute;
+    left: 4%;
+    top: 20%;
+}
+ }
+
+    /* .site_header {
         height: 20px;
         padding-bottom: 100px;
         background-color: #ffba4f;
@@ -403,21 +424,41 @@ padding-bottom: 20px;
         border-bottom: 0.5px solid white;
     }
     #main_logo {
-        /* font-family: 'Quattrocento Sans', sans-serif; */
         position: absolute;
         left: 5%;
         top: 10%;
-        /* letter-spacing: 4px; */
     }
-    #header_navigation {
-        position: absolute;
-        left: 5%;
-        top: 40%;
-    }
+    
     #header_navigation li {
         display: inline-block;
         line-height: 80px;
         padding-right: 30px;
         }
     
+}  */
+
+@media screen and (max-width: 1100px) {
+
+    .site_header {
+        height: 100px;
+    }
 }
+@media screen and (max-width: 984px) {
+
+    #header_navigation li {
+        float: left;
+        padding-right: 35px;
+        margin-top: 20px;
+        list-style-type: none;
+        line-height: normal;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #main_logo {
+        display: block;
+    }
+}
+
+
+
