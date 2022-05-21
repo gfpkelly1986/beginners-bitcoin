@@ -54,27 +54,7 @@ body {
     margin-top: 120px;
 }
 
-
-#hamburger_menu:active {
-    background-color: aqua;
-}
-
-#hamburger_menu:hover {
-    background-color: #ffba4f;
-} 
-
-#header_navigation_mobile::before {
-    visibility: hidden;
-}
-#header_navigation_mobile::after {
-    visibility:visible;
-}
-
-
-
-
-
-#header_navigation {
+ #header_navigation {
     position: absolute;
     right: 4%;
     top: 30%;
@@ -98,7 +78,7 @@ body {
     padding: 1.5px;
     border-radius: 2px;
     color: white;
-}
+} 
 
 /* Start main landing page styling*/
 
@@ -295,7 +275,7 @@ form {
     display: block;
     background-color: #efefef;
     height: 35px;
-    margin-bottom:10px 0 0 15px;
+    /* margin-bottom: 10px 0 0 15px; */
     font-family: inherit;
     text-align: center;
 }
@@ -319,7 +299,6 @@ form {
     font-weight: 900;
 }
 
-
 #email_list_button {
     height: 46px;
     margin-top: 10px;
@@ -333,29 +312,6 @@ form {
     font-weight: 800;
 }
 
-
-/* #further_reading {
-    
-} 
-
-#further_reading li {
-padding-bottom: 20px;
-}
-
-#further_reading a {
-    text-decoration: none;
-    color: #141414;
-}
-
-.clean_link {
-    color: black;
-    font-weight: bold;
-} 
-
-#further_reading a:hover {
-    border-bottom: 2px solid black;
-} */
-
 /* start rtecommended watching styles*/
 #recommended_watching {
     clear: both;
@@ -367,18 +323,18 @@ padding-bottom: 20px;
     margin: 0 auto;
 }
 
-#video_content {   /*parent*/
-    width: 39.5%;
+#video_content {
+    width: 100%;
     height: auto;
     background-color: whitesmoke;
-    /* text-align: center; */
-    /* margin: 0 auto; */
     display: flex;
+    align-content: center;
+    align-items: center;
     justify-content: flex-start;
 }
 
-#video_content iframe { /*child*/
-    width: 60%;
+#video_content iframe {
+    width: 24.3%;
     height: 350px;
     border: 5px solid whitesmoke;
 }
@@ -438,36 +394,52 @@ padding-bottom: 20px;
     left: 4%;
     top: 20%;
 }
- }
+ } 
 
-    /* .site_header {
-        height: 20px;
-        padding-bottom: 100px;
-        background-color: #ffba4f;
-        position: relative;
-        border-bottom: 0.5px solid white;
-    }
-    #main_logo {
-        position: absolute;
-        left: 5%;
-        top: 10%;
-    }
-    
-    #header_navigation li {
-        display: inline-block;
-        line-height: 80px;
-        padding-right: 30px;
-        }
-    
-}  */
+ /* Style for 1100px or less */
 
 @media screen and (max-width: 1100px) {
 
-    .site_header {
+     .site_header {
         height: 100px;
     }
+    #reasons_to_subscribe p {
+        padding-bottom: 30px;
+        line-height: 35px;
+        letter-spacing: 2px;
+    }
+    #reasons_to_subscribe {
+        margin: 0;
+        padding: 40px 70px 40px 30px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #testimonials {
+        margin: 0;
+        width: 26.5%;
+        padding: 40px;
+        float: left;
+    }
+    #mail_list_layout {
+        width: 33%;
+        margin: 0 auto;
+        padding-top: 60px;
+        background-color: white;
+        float: left;
+    }
+    #further_reading {
+        width: 25%;
+        margin-top: 5%;
+        min-height: 352px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    } 
 }
-@media screen and (max-width: 984px) {
+
+/* styles for 984 px or less*/
+ @media screen and (max-width: 984px) {
 
     #header_navigation li {
         float: left;
@@ -476,10 +448,9 @@ padding-bottom: 20px;
         list-style-type: none;
         line-height: normal;
     }
-}
+} 
 
-@media screen and (max-width: 500px) {
-
+ @media screen and (max-width: 500px) {
     .container {
         width: 100%;
     }
@@ -487,12 +458,6 @@ padding-bottom: 20px;
         width: 100%;
         left: 0;
     }
-    #main_logo {
-        display: block;
-    }
-}
-
-@media screen and (max-width: 500px) {
 #main_logo {
     left: 15%;
     top: 0%;
@@ -517,6 +482,9 @@ padding-bottom: 20px;
     margin-top: 30px;
     float: none;
 }
+#header_navigation a {
+    letter-spacing: 3px;
+}
 .site_header {
     height: 100px;
 }
@@ -534,7 +502,6 @@ padding-bottom: 20px;
     margin: 0;
     padding: 5% 0px 40px 4%;
     width: 95%;
-    /* float: left; */
 }
 
 .section_headings {
@@ -598,4 +565,4 @@ padding-bottom: 20px;
     visibility: hidden;
 }
 
-}
+} 
