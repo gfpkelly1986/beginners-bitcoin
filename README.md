@@ -4,7 +4,7 @@
 
 ## The Intended Purpose of This Website:
 
-This website was designed and built with the intention of rapidly grabbing the attention of a complete novice who has heard of Bitcoin but know nothing of what it is, why it exists or what to compare it to. The user of this site instantly gets a brief overview of what Bitcoin is and why they should steer clear of other 'cryptocurrencies'. A list of Bitcoin's most redeeming features is then provided. There are some external links provided on each point to allow the user understand better what each piece of terminology actually means. It is beleief of the author of this site that new terminology relating to a field is one of the first items a new learner has to come to terms with so the purpose of this list was to give an understanding of some of the core concepts involved when trying to assess this technology. An option to sign up to a newsletter is provided for those who would like to learn more than is provided on the website. A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other.
+This website was designed and built with the intention of rapidly grabbing the attention of a complete novice who has heard of Bitcoin but know nothing of what it is, why it exists or what to compare it to. The user of this site instantly gets a brief overview of what Bitcoin is and why they should steer clear of other 'cryptocurrencies'. A list of Bitcoin's most redeeming features is then provided. There are some external links provided on each point to allow the user understand better what each piece of terminology actually means. It is beleief of the author of this site that new terminology relating to a field is one of the first items a new learner has to come to terms with so the purpose of this list was to give an understanding of some of the core concepts involved when trying to assess this technology. An option to sign up to a newsletter is provided for those who would like to learn more than is provided on the website. A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other. A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
 
 # Live Features:
 - Header
@@ -64,7 +64,11 @@ This section gives the user videos which aim to educate people on the fundamenta
 - The Lightning Network section
     - This section would explain to users what the Ligtning Network is, how it provided the Bitcoin network with the ability to route micro payments over 2nd layer channels and what it means for the world that there is now a global, open source monetary network available for micro payments that any developer in the world can build on.
 
-# Testing
+# Validator Testing
+![Results for Accessibility and SEO](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/accessibility_score_BTC.PNG)
+
+- Light house on Google Chrome was used to test the webpage for Accessibility and SEO. The results were 98 for accessibility and 100 for SEO.
+
 -  The W3C Schools HTML validator was used to test the markup for the site. There were no errors in the final markup but there were errors fixed during development. Some of these errors were incorrect use of ul elements nested inside ol elements, h3 elements nested inside label elements and iframes with incorrect border attributes that were outdated and replaced with CSS.
 -  The W3C Schools CSS validator was used to test the CSS during development and before final push to git hub. There were no CSS errors returned from this validator.
 
@@ -77,14 +81,23 @@ This section gives the user videos which aim to educate people on the fundamenta
     
 # Bugs (Issues to be resolved)
 - One bug/issue that persists is the view of the site when on landscape orientation of a mobile viewport. The fixed header is too large and needs to be replaced with a hamburger menu or a header that scrolls with the webpage.
+- Slow loading of images in the email subscriber section possibly due to how the image is being served to the browser
 
-
-# Validator Testing
-![Results for Accessibility and SEO](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/accessibility_score_BTC.PNG)
 # Deployment
+- This webpage was deployed to git hub pages at the following link  [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
+- Steps taken
+    1. Go to settings tab at the top banner of the repository page in question.
+    2. Click on pages on the left hand menu
+    3. Select main branch from the options pane. (Main replaced Master as terminology to describe the primary code branch)
 
 # Credits
+- Social Links
+    - The social links used in the footer were taken from love running but with added hover styles that create a round border when the mouse hovers over them. They also increase slightly in size.
+
+- Media
+    - The images for the site were sourced from [wallpaper safari](https://wallpapersafari.com/w/2XmLKM) and also from [Pexels.com](https://www.pexels.com/search/bitcoin/)
 # Design Process:
+
 ## Methods Used:
   - Paper Wireframes
 ![Paper Wireframes](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/20220522_152901.jpg) ![Paper Wireframes](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/20220522_152853.jpg)
