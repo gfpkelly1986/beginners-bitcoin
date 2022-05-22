@@ -26,17 +26,61 @@ The background image for the page portrays the nature of Bitcoin as a distribute
 
 This section breifly describes Bitcoin, explains to the user that it is a global ledger of account that records transactions every ten minutes and adds them to a chain. It gives a brief warning not to consider other cryptocurrencies to be the same as Bitcoin. One is property, the other a security.
 
+- Why Bitcoin is Unique Section
+    - A simplified list of Bitcoins redeeming features.
+
+This section introduces the user to some terminology used in the space and attempts to hightlight quickly to the user the 10 main properties that make Bitcoin a unique and valuable invention. All of the obscure terminology links out to external sources to allow the user gain a better understanding of what these 10 points actually mean.
+
+- Option to subscribe to a mailing list
+    - A form field to allow the user to subscribe to get more advanced content on Bitcoin.
+
+This section gives the user a reason as to why they might like to subscribe to the sites mailing list. It provides the user with some testimonials from previous subscribers and 2 form fields for their details, one input for email and another for their name. The form when submitted takes the user to a 'submitted form page' to provide the user with feedback.
+
+- Further Reading Section
+    - A list of 7 books from expert authors on the subject of Bitcoin.
+
+These books explore both fiat currency and Bitcoin from first principles, compare Bitcoin to fiat currencies and explain in detail why it is a powerful invention. There is also a link provided to the download the original whitepaper written by Satoshi Nakamoto in PDF format.
+
+- Video Section
+    - Four videos are provided to give the user an easier way to consume the content.
+
+This section gives the user videos which aim to educate people on the fundamental nature of money and where Bitcoin fits into the history of money. They are provided for users who may not have available time to click on and read the links from the list above.
+
+- Social Links and Copyright
+    - Some links provided to popular social media websites.
+
 
 # Desired Features
+- Hamburger menu for mobile users
+    -This feature will need to be added for mobile users to eliminate the need for the fixed navigation that takes up too much screen real estate particularly for the landscape orientation users.
+- Update the social links to share the current page.
+    - Social links need to be updated to allow the users land directly on the message board of the social media websites.
+- Tech Talk section
+    - This section would be where the user can learn how to  purchase and store/secure their Bitcoin. There would be a comparison of 'hot' and 'cold' wallet options, there would also be an easy to understand explanation of how the public and private keys create transactions and how wallets essentially show these transactions and don't actually store anything in them. (as opposed to current centralized applications.)
+
+- A history of money section and modern money mechanics.
+    - This section would provide users with an education in how and when Fiat currencies were created. It would also explain why the were created and what problem they solved at the time. A comparison of the fundamental properties of fiat and Bitcoin would be provided.
+    
+- The Lightning Network section
+    - This section would explain to users what the Ligtning Network is, how it provided the Bitcoin network with the ability to route micro payments over 2nd layer channels and what it means for the world that there is now a global, open source monetary network available for micro payments that any developer in the world can build on.
 
 # Testing
+-  The W3C Schools HTML validator was used to test the markup for the site. There were no errors in the final markup but there were errors fixed during development. Some of these errors were incorrect use of ul elements nested inside ol elements, h3 elements nested inside label elements and iframes with incorrect border attributes that were outdated and replaced with CSS.
+-  The W3C Schools CSS validator was used to test the CSS during development and before final push to git hub. There were no CSS errors returned from this validator.
 
 # Bugs (During Development)
-
+- Duplicate CSS code
+   - A major bug during development was duplicate code copied into the CSS Stylesheet. I had hit CTRL C as opossed to CTRL X on some code to move it down the page and it was not until major styles started to fail that I realised the error. To fix I had to comment out all styles to the main image section and when this was done I realised there were duplicate styles further down the stylesheet which were overwriting the styles further up the stylesheet. 
+    
+- Header Styles that were not being appied
+    - A second bug during development: This bug was extra html closing tags left behind from copy and pasting code that prevented the header from loading its styles correctly. This tool some time to locate as it was not instantly obvious that the issue was with the markup. It was not until removing all applied CSS styles to the page by commenting them out that it became obvious the issue was in the index.html file.
+    
 # Bugs (Issues to be resolved)
+- One bug/issue that persists is the view of the site when on landscape orientation of a mobile viewport. The fixed header is too large and needs to be replaced with a hamburger menu or a header that scrolls with the webpage.
+
 
 # Validator Testing
-
+![Results for Accessibility and SEO](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/accessibility_score_BTC.PNG)
 # Deployment
 
 # Credits
