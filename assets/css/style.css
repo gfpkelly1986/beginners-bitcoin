@@ -161,10 +161,10 @@ body {
     line-height: 30px;
     letter-spacing: 3px;
     font-size: 1.1rem;
-}
+} 
 
 /* Why bitcoin is unique styles */
-#unique_btc {
+   #unique_btc {
     width: 100%;
     height: auto;
     border-bottom: 20px solid #ffba4f;
@@ -182,7 +182,7 @@ body {
 
 /*  Mailing List Styles */
 
-#mail_list_heading {
+  #mail_list_heading {
     background-color: white;
 }
 
@@ -269,13 +269,12 @@ form {
     outline: none;
     color: black;
     font-weight: 900;
-}
+} 
 
 #subscriber_name {
     display: block;
     background-color: #efefef;
     height: 35px;
-    /* margin-bottom: 10px 0 0 15px; */
     font-family: inherit;
     text-align: center;
 }
@@ -310,9 +309,9 @@ form {
     background-color: white;
     transform: scale(1.01);
     font-weight: 800;
-}
+} 
 
-/* start rtecommended watching styles*/
+ start rtecommended watching styles
 #recommended_watching {
     clear: both;
     width: 100%;
@@ -321,6 +320,10 @@ form {
     background-color: white;
     text-align: center;
     margin: 0 auto;
+}
+
+#recommended_watching h2 {
+    clear: both;
 }
 
 #video_content {
@@ -337,11 +340,11 @@ form {
     width: 24.3%;
     height: 350px;
     border: 5px solid whitesmoke;
-}
+} 
 
 /* Footer and Social Links */
 
-#site_footer {
+   #site_footer {
     height: 150px;
     width: 100%;
     background-color: #ffba4f;
@@ -368,7 +371,7 @@ form {
     animation-name: icon-increase;
     animation-duration: 0.3s;
     animation-fill-mode: forwards;
-}
+} 
 /* Animation for icons */
 
 @keyframes icon-increase {
@@ -381,7 +384,14 @@ form {
     }
 }
 
- @media screen and (max-width: 1600px) {
+
+@media screen and (max-width: 2560px) {
+    #mobile_header {
+        display: none;
+    }
+}
+
+  @media screen and (max-width: 1600px) {
 
 #header_navigation {
     position: absolute;
@@ -394,15 +404,23 @@ form {
     left: 4%;
     top: 20%;
 }
- } 
+#mobile_header {
+    display: none;
+}
+ }  
 
  /* Style for 1100px or less */
 
-@media screen and (max-width: 1100px) {
+ @media screen and (max-width: 1100px) {
 
      .site_header {
         height: 100px;
     }
+
+    #mobile_header {
+        display: none;
+    }
+
     #reasons_to_subscribe p {
         padding-bottom: 30px;
         line-height: 35px;
@@ -436,10 +454,10 @@ form {
         align-items: center;
         justify-content: space-around;
     } 
-}
+} 
 
-/* styles for 984 px or less*/
- @media screen and (max-width: 984px) {
+/* Styles for 984 px or less */
+  @media screen and (max-width: 984px) {
 
     #header_navigation li {
         float: left;
@@ -447,6 +465,10 @@ form {
         margin-top: 20px;
         list-style-type: none;
         line-height: normal;
+    }
+
+    #mobile_header {
+        display: none;
     }
 } 
 
@@ -459,10 +481,14 @@ form {
         left: 0;
     }
 #main_logo {
+    display: flex;
+    flex-direction: column;
     left: 15%;
-    top: 0%;
-    text-align: center;
-    padding-top: 10px;
+    top: 2%;
+}
+
+#mobile_header {
+    display:block;
 }
 
 #second_logo_heading {
@@ -505,7 +531,7 @@ form {
 }
 
 .section_headings {
-    text-align: left;
+    /* text-align: left; */
     padding: 5%;
     letter-spacing: 2px;
 }
