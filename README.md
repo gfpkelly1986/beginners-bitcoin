@@ -10,6 +10,7 @@ This website was designed and built with the intention of rapidly grabbing the a
 - Header
     - Navigation Links
     - Main Website Logo
+
 The header for the website contains both the main website logo which contains two Bitcoin icons from font-awesome. 
 The header also contains the main site navigation links for the page. I decided to have the links fixed to the top of the page as the page is designed to be scrollable.
 The navigation links have contrasting hover styles to give an improved user experience. This header is appled to the 'submitted form' page and will be applied to any added pages in the future.
