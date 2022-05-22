@@ -247,7 +247,7 @@ form {
     height: 35px;
     width: 40%;
     text-align: center;
-    margin: 0px 0 10px 0px;
+    margin: 10px 0 10px 0px;
     background-color: #efefef;
     border: 3px solid white;
     border-radius: 4px;
@@ -277,8 +277,13 @@ form {
     text-align: center;
 }
 
-#subscriber_name_heading {
+ #subscriber_name_heading {
+    display: block;
+    font-weight: 800;
     margin-bottom: 10px;
+} 
+#subscribe_to_list {
+    font-weight: 800;
 }
 
 #subscriber_name:hover {
@@ -414,6 +419,9 @@ form {
 #video_content {
     width: 98%;
 }
+#subscribe_img {
+    width: 98%;
+}
  }  
 
  /* Style for 1100px viewports or less */
@@ -454,6 +462,11 @@ form {
         line-height: 30px;
         letter-spacing: 3px;
         font-weight: 900;
+    }
+
+    #subscribe_img {
+        width: 98%;
+        height: auto;
     }
     
     #testimonials {
@@ -539,6 +552,10 @@ form {
         position: relative;
         left: -15%;
     }
+
+    #subscribe_img {
+        width: 98%;
+    }
     
     #further_reading {
         width: 100%;
@@ -602,6 +619,10 @@ form {
     width: 95%;
 }
 
+#subscribe_img {
+    width: 95%;
+}
+
 .section_headings {
     padding: 5%;
     letter-spacing: 2px;
@@ -637,7 +658,7 @@ form {
 
 #subscriber_name_heading {
     position: relative;
-    left: -30%;
+    left: -25%;
 }
 
 #further_reading {
