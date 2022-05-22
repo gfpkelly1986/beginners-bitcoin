@@ -15,7 +15,18 @@ The header for the website contains both the main website logo which contains tw
 The header also contains the main site navigation links for the page. I decided to have the links fixed to the top of the page as the page is designed to be scrollable.
 The navigation links have contrasting hover styles to give an improved user experience. This header is appled to the 'submitted form' page and will be applied to any added pages in the future.
  
+- Landing Page
+    - The main goal of the website.
     
+The landing page image contains headings on it that convey the goal of the website instantly upon arrival.
+The background image for the page portrays the nature of Bitcoin as a distributed system.
+
+- What is Bitcoin Section
+    - A brief overview of what Bitcoin is.
+
+This section breifly describes Bitcoin, explains to the user that it is a global ledger of account that records transactions every ten minutes and adds them to a chain. It gives a brief warning not to consider other cryptocurrencies to be the same as Bitcoin. One is property, the other a security.
+
+
 # Desired Features
 
 # Testing
