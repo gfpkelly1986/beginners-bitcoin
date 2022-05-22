@@ -407,6 +407,9 @@ form {
 #mobile_header {
     display: none;
 }
+#video_content {
+    width: 98%;
+}
  }  
 
  /* Style for 1100px or less */
@@ -454,6 +457,10 @@ form {
         align-items: center;
         justify-content: space-around;
     } 
+
+    #video_content {
+        width: 98%;
+    }
 } 
 
 /* Styles for 984 px or less */
@@ -470,7 +477,18 @@ form {
     #mobile_header {
         display: none;
     }
+    #video_content {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    #video_content iframe {
+        width: 95%;
+    }
+
 } 
+
+
 
  @media screen and (max-width: 500px) {
     .container {
