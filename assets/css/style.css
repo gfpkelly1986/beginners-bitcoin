@@ -601,7 +601,9 @@ form {
     float: none;
 }
 #header_navigation a {
-    letter-spacing: 3px;
+    letter-spacing: 2px;
+    padding-right: 5px;
+    border-right: 1px solid white;
 }
 
 #main_image_headings {
