@@ -9,4 +9,4 @@ This website was designed and built with the intention of rapidly grabbing the a
 # Design Process:
 ## Methods Used:
   - Paper Wireframes
-![Paper Wireframes](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/20220522_152901.jpg)
+![Paper Wireframes](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/20220522_152901.jpg) ![Paper Wireframes](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/20220522_152853.jpg)
