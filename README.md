@@ -10,7 +10,7 @@ An option to sign up to a newsletter is provided for those who would like to lea
 A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other.
 A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
 
-#Table of Contents
+# Table of Contents
     - [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
     - [Desired Features](https://github.com/gfpkelly1986/beginners-bitcoin#desired-features)
     - [Validator Testing](https://github.com/gfpkelly1986/beginners-bitcoin#validator-testing)
