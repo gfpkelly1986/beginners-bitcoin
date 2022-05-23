@@ -181,7 +181,7 @@ body {
 
 /*  Mailing List Styles */
 
-  #mail_list_heading {
+#mail_list_heading {
     background-color: white;
 }
 
@@ -277,7 +277,7 @@ form {
     text-align: center;
 }
 
- #subscriber_name_heading {
+#subscriber_name_heading {
     display: block;
     font-weight: 800;
     margin-bottom: 10px;
@@ -302,14 +302,19 @@ form {
 }
 
 #email_list_button {
-    height: 41px;
+    height: 34px;
     margin-top: 10px;
-    border: 3px solid white;
+    border: 1px solid #292929;
     border-radius: 4px;  
+    padding: 0 5px 0 5px;
+    background-color: #292929;
+    color: white;
+    font-weight: 900;
     font-family: inherit;
 }
 #email_list_button:hover {
-    background-color: white;
+    background-color: #efefef;
+    color: black;
     transform: scale(1.01);
     font-weight: 800;
 } 
@@ -661,6 +666,10 @@ form {
 #subscriber_name_heading {
     position: relative;
     left: -25%;
+}
+
+#email_list_button {
+    margin: 10px 0 0 5px;
 }
 
 #further_reading {
