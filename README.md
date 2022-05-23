@@ -42,7 +42,9 @@ This section introduces the user to some terminology used in the space and attem
 - Option to subscribe to a mailing list
     - A form field to allow the user to subscribe to get more advanced content on Bitcoin.
 
-![Email subscription form](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/mailing_list_feature.PNG) ![reasons to subscribe to mailing list](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/reasons_to_subscribe_feature.PNG) ![screenshot of testimonials section](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/testimonials_feature.PNG)
+![reasons to subscribe to mailing list](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/reasons_to_subscribe_feature.PNG)
+![Email subscription form](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/mailing_list_feature.PNG)
+![screenshot of testimonials section](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/testimonials_feature.PNG)
 
 This section gives the user a reason as to why they might like to subscribe to the sites mailing list. It provides the user with some testimonials from previous subscribers and 2 form fields for their details, one input for email and another for their name. The form when submitted takes the user to a 'submitted form page' to provide the user with feedback.
 
@@ -114,6 +116,12 @@ This section gives the user videos which aim to educate people on the fundamenta
 
 - Media
     - The images for the site were sourced from [wallpaper safari](https://wallpapersafari.com/w/2XmLKM) and also from [Pexels.com](https://www.pexels.com/search/bitcoin/)
+
+# Quality Commit Messages
+
+I noticed an error I made when commiting changes to the README file on the 22nd-5th-2022. I left the page numerous times to grab links for images from the repository assets folder and every time I left the page I comitted changes with poor descriptions of 'Update README.md'. I realise these commits are poor quality and once I realised my error I changed my process of commiting to the README.
+I opened up a duplicate tab for grabbing the links and made more frequent descriptive commits. I was advised that changing the commit messages can interfere with the git history so I left them unchanged.
+
 # Design Process:
 
 ## Methods Used:
