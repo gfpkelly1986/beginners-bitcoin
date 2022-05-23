@@ -4,7 +4,11 @@
 
 ## The Intended Purpose of This Website:
 
-This website was designed and built with the intention of rapidly grabbing the attention of a complete novice who has heard of Bitcoin but know nothing of what it is, why it exists or what to compare it to. The user of this site instantly gets a brief overview of what Bitcoin is and why they should steer clear of other 'cryptocurrencies'. A list of Bitcoin's most redeeming features is then provided. There are some external links provided on each point to allow the user understand better what each piece of terminology actually means. It is beleief of the author of this site that new terminology relating to a field is one of the first items a new learner has to come to terms with so the purpose of this list was to give an understanding of some of the core concepts involved when trying to assess this technology. An option to sign up to a newsletter is provided for those who would like to learn more than is provided on the website. A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other. A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
+This website was designed and built with the intention of rapidly grabbing the attention of a complete novice who has heard of Bitcoin but knows nothing of what it is, why it exists or what to compare it to. The user of this site instantly gets a brief overview of what Bitcoin is and why they should steer clear of other 'cryptocurrencies'. A list of Bitcoin's most redeeming features is then provided. There are some external links provided with each point made to allow the user understand better what each piece of terminology actually means.
+It is beleief of the author of this site that terminology relating to an unknown field of interest is one of the first items a new learner has to come to terms with so the purpose of this list was to give an understanding of some of the core concepts involved when trying to assess this technology.
+An option to sign up to a newsletter is provided for those who would like to learn more than is provided on the website.
+A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other.
+A link to the live version of the website can be found here ![My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
 
 # Live Features:
 - Header
@@ -55,7 +59,7 @@ This section gives the user a reason as to why they might like to subscribe to t
 
 ![A list of further reading](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/further_reading_feature.PNG)
 
-These books explore both fiat currency and Bitcoin from first principles, compare Bitcoin to fiat currencies and explain in detail why it is a powerful invention. There is also a link provided to the download the original whitepaper written by Satoshi Nakamoto in PDF format.
+These books explore both fiat currency and Bitcoin from first principles, compare Bitcoin to fiat currencies and explain in detail why it is a powerful invention. There is also a link provided to download the original whitepaper written by Satoshi Nakamoto in PDF format.
 
 - Video Section
     - Four videos are provided to give the user an easier way to consume the content.
@@ -72,17 +76,17 @@ This section gives the user videos which aim to educate people on the fundamenta
 
 # Desired Features
 - Hamburger menu for mobile users
-    -This feature will need to be added for mobile users to eliminate the need for the fixed navigation that takes up too much screen real estate particularly for the landscape orientation users.
+    -This feature will need to be added for mobile users to eliminate the need for the fixed navigation that takes up too much screen real estate particularly for the landscape orientation mobile user.
 - Update the social links to share the current page.
     - Social links need to be updated to allow the users land directly on the message board of the social media websites.
 - Tech Talk section
     - This section would be where the user can learn how to  purchase and store/secure their Bitcoin. There would be a comparison of 'hot' and 'cold' wallet options, there would also be an easy to understand explanation of how the public and private keys create transactions and how wallets essentially show these transactions and don't actually store anything in them. (as opposed to current centralized applications.)
 
 - A history of money section and modern money mechanics.
-    - This section would provide users with an education in how and when Fiat currencies were created. It would also explain why the were created and what problem they solved at the time. A comparison of the fundamental properties of fiat and Bitcoin would be provided.
+    - This section would provide users with an education in how and when Fiat currencies were created. It would also explain why they were created and what problem they solved at the time. A comparison of the fundamental properties of fiat currency and Bitcoin would be provided.
     
 - The Lightning Network section
-    - This section would explain to users what the Ligtning Network is, how it provided the Bitcoin network with the ability to route micro payments over 2nd layer channels and what it means for the world that there is now a global, open source monetary network available for micro payments that any developer in the world can build on.
+    - This section would explain to users what the Ligtning Network is, how it provided the Bitcoin network with the ability to route micro payments over 2nd layer channels and what it means for the world that there is now a global, open source monetary network available for micro payments that any developer in the world can build on top of.
 
 # Validator Testing
 ![Results for Accessibility and SEO](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/accessibility_score_BTC.PNG)
@@ -94,10 +98,10 @@ This section gives the user videos which aim to educate people on the fundamenta
 
 # Bugs (During Development)
 - Duplicate CSS code
-   - A major bug during development was duplicate code copied into the CSS Stylesheet. I had hit CTRL C as opossed to CTRL X on some code to move it down the page and it was not until major styles started to fail that I realised the error. To fix I had to comment out all styles to the main image section and when this was done I realised there were duplicate styles further down the stylesheet which were overwriting the styles further up the stylesheet. 
+   - A major bug during development was duplicate code copied into the CSS Stylesheet. I had hit CTRL C as opossed to CTRL X on some code to move it down the page and it was not until major styles started to fail that I realised the error. To fix I had to comment out all styles to the main image section and when this was done I realised there were duplicate styles further down the stylesheet which were overwriting the styles applied further up the stylesheet. 
     
 - Header Styles that were not being appied
-    - A second bug during development: This bug was extra html closing tags left behind from copy and pasting code that prevented the header from loading its styles correctly. This tool some time to locate as it was not instantly obvious that the issue was with the markup. It was not until removing all applied CSS styles to the page by commenting them out that it became obvious the issue was in the index.html file.
+    - A second bug during development: This bug was caused by extra html closing tags left behind from copy and pasting code that prevented the header from loading its styles correctly. This took some time to locate as it was not instantly obvious that the issue was with the markup. It was not until removing all applied CSS styles to the page by commenting them out that it became obvious the issue was in the index.html file.
     
 # Bugs (Issues to be resolved)
 - One bug/issue that persists is the view of the site when on landscape orientation of a mobile viewport. The fixed header is too large and needs to be replaced with a hamburger menu or a header that scrolls with the webpage.
