@@ -42,9 +42,11 @@ This section introduces the user to some terminology used in the space and attem
 - Option to subscribe to a mailing list
     - A form field to allow the user to subscribe to get more advanced content on Bitcoin.
 
-![Email subscription form](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/mailing_list_feature.PNG)
+![Email subscription form](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/mailing_list_feature.PNG) ![reasons to subscribe to mailing list](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/reasons_to_subscribe_feature.PNG) ![screenshot of testimonials section](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/testimonials_feature.PNG)
 
 This section gives the user a reason as to why they might like to subscribe to the sites mailing list. It provides the user with some testimonials from previous subscribers and 2 form fields for their details, one input for email and another for their name. The form when submitted takes the user to a 'submitted form page' to provide the user with feedback.
+
+![The submitted form page to give users feedback](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/submitted_form_feature.PNG)
 
 - Further Reading Section
     - A list of 7 books from expert authors on the subject of Bitcoin.
