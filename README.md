@@ -11,8 +11,16 @@ A list of some more advanced reading is provided for those who are interested, a
 A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
 
 #Table of Contents
-
-    - ### [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
+    - [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
+    - [Desired Features](https://github.com/gfpkelly1986/beginners-bitcoin#desired-features)
+    - [Validator Testing](https://github.com/gfpkelly1986/beginners-bitcoin#validator-testing)
+    - [Bugs During Development](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-during-development)
+    - [Bugs To be resolved](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-issues-to-be-resolved)
+    - [Deployment](https://github.com/gfpkelly1986/beginners-bitcoin#deployment)
+    - [Credits](https://github.com/gfpkelly1986/beginners-bitcoin#credits)
+    - [Quality Commit Messages](https://github.com/gfpkelly1986/beginners-bitcoin#quality-commit-messages)
+    - [Design Process](https://github.com/gfpkelly1986/beginners-bitcoin#design-process)
+    
 
 # Live Features:
 - Header
@@ -127,8 +135,12 @@ This section gives the user videos which aim to educate people on the fundamenta
 
 # Quality Commit Messages
 
-I noticed an error I made when commiting changes to the README file on the 22nd-5th-2022. I left the page numerous times to grab links for images from the repository assets folder and every time I left the page I comitted changes with poor descriptions of 'Update README.md'. I realise these commits are poor quality and once I realised my error I changed my process of commiting to the README.
-I opened up a duplicate tab for grabbing the links and made more frequent descriptive commits. I was advised that changing the commit messages can interfere with the git history so I left them unchanged.
+I noticed an error I made when commiting changes to the README file on the 22nd-5th-2022. I left the page numerous times to grab links for images from the repository assets folder and to see if my markdown was rendering as I expected. Every time I left the page I comitted changes with poor descriptions of 'Update README.md'.
+
+I realise these commits are poor quality and once I realised my error I changed my process of commiting to the README.
+I opened up a duplicate tab for grabbing the links, and for checking how the markdown looked when applied to the README file I made more frequent commits. 
+I was advised that changing the commit messages can interfere with the git history so I left them unchanged.
+I apologise for an confusion this may cause.
 
 # Design Process:
 
