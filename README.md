@@ -10,45 +10,61 @@ This website was designed and built with the intention of rapidly grabbing the a
 - Header
     - Navigation Links
     - Main Website Logo
+ 
 ![Header for the website containing navigation elements](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/header_feature.PNG)
+
 The header for the website contains both the main website logo which contains two Bitcoin icons from font-awesome. 
 The header also contains the main site navigation links for the page. I decided to have the links fixed to the top of the page as the page is designed to be scrollable.
 The navigation links have contrasting hover styles to give an improved user experience. This header is appled to the 'submitted form' page and will be applied to any added pages in the future.
  
 - Landing Page
     - The main goal of the website.
-    
+
+![Landing page containing sites main purpose and goals](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/landing_page_feature.PNG)
+
 The landing page image contains headings on it that convey the goal of the website instantly upon arrival.
 The background image for the page portrays the nature of Bitcoin as a distributed system.
 
 - What is Bitcoin Section
     - A brief overview of what Bitcoin is.
 
+![An overview of Bitcoin](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/what_is_bitcoin_feature.PNG)
+
 This section breifly describes Bitcoin, explains to the user that it is a global ledger of account that records transactions every ten minutes and adds them to a chain. It gives a brief warning not to consider other cryptocurrencies to be the same as Bitcoin. One is property, the other a security.
 
 - Why Bitcoin is Unique Section
     - A simplified list of Bitcoins redeeming features.
+
+![A list of 10 items each one a quality of bitcoin](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/unique_btc_feature.PNG)
 
 This section introduces the user to some terminology used in the space and attempts to hightlight quickly to the user the 10 main properties that make Bitcoin a unique and valuable invention. All of the obscure terminology links out to external sources to allow the user gain a better understanding of what these 10 points actually mean.
 
 - Option to subscribe to a mailing list
     - A form field to allow the user to subscribe to get more advanced content on Bitcoin.
 
+![Email subscription form](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/mailing_list_feature.PNG)
+
 This section gives the user a reason as to why they might like to subscribe to the sites mailing list. It provides the user with some testimonials from previous subscribers and 2 form fields for their details, one input for email and another for their name. The form when submitted takes the user to a 'submitted form page' to provide the user with feedback.
 
 - Further Reading Section
     - A list of 7 books from expert authors on the subject of Bitcoin.
+
+![A list of further reading](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/further_reading_feature.PNG)
 
 These books explore both fiat currency and Bitcoin from first principles, compare Bitcoin to fiat currencies and explain in detail why it is a powerful invention. There is also a link provided to the download the original whitepaper written by Satoshi Nakamoto in PDF format.
 
 - Video Section
     - Four videos are provided to give the user an easier way to consume the content.
 
+![Some video content for the site](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/Video_content_feature.PNG)
+
 This section gives the user videos which aim to educate people on the fundamental nature of money and where Bitcoin fits into the history of money. They are provided for users who may not have available time to click on and read the links from the list above.
 
-- Social Links and Copyright
+- Footer containing social links and Copyright
     - Some links provided to popular social media websites.
+    - Copyright information
 
+![Footer containing social linksvand copyright](https://github.com/gfpkelly1986/beginners-bitcoin/blob/main/assets/css/images/Bitcoin-Images/Features%20screenshots/footer_feature.PNG)
 
 # Desired Features
 - Hamburger menu for mobile users
