@@ -11,15 +11,23 @@ A list of some more advanced reading is provided for those who are interested, a
 A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
 
 # Table of Contents
-    - [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
-    - [Desired Features](https://github.com/gfpkelly1986/beginners-bitcoin#desired-features)
-    - [Validator Testing](https://github.com/gfpkelly1986/beginners-bitcoin#validator-testing)
-    - [Bugs During Development](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-during-development)
-    - [Bugs To be resolved](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-issues-to-be-resolved)
-    - [Deployment](https://github.com/gfpkelly1986/beginners-bitcoin#deployment)
-    - [Credits](https://github.com/gfpkelly1986/beginners-bitcoin#credits)
-    - [Quality Commit Messages](https://github.com/gfpkelly1986/beginners-bitcoin#quality-commit-messages)
-    - [Design Process](https://github.com/gfpkelly1986/beginners-bitcoin#design-process)
+     [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
+     
+     [Desired Features](https://github.com/gfpkelly1986/beginners-bitcoin#desired-features)
+     
+     [Validator Testing](https://github.com/gfpkelly1986/beginners-bitcoin#validator-testing)
+     
+     [Bugs During Development](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-during-development)
+     
+     [Bugs To be resolved](https://github.com/gfpkelly1986/beginners-bitcoin#bugs-issues-to-be-resolved)
+     
+     [Deployment](https://github.com/gfpkelly1986/beginners-bitcoin#deployment)
+     
+     [Credits](https://github.com/gfpkelly1986/beginners-bitcoin#credits)
+     
+     [Quality Commit Messages](https://github.com/gfpkelly1986/beginners-bitcoin#quality-commit-messages)
+     
+     [Design Process](https://github.com/gfpkelly1986/beginners-bitcoin#design-process)
     
 
 # Live Features:
