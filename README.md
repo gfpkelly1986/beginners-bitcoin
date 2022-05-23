@@ -8,7 +8,11 @@ This website was designed and built with the intention of rapidly grabbing the a
 It is beleief of the author of this site that terminology relating to an unknown field of interest is one of the first items a new learner has to come to terms with so the purpose of this list was to give an understanding of some of the core concepts involved when trying to assess this technology.
 An option to sign up to a newsletter is provided for those who would like to learn more than is provided on the website.
 A list of some more advanced reading is provided for those who are interested, and for those who prefer not to read, some videos from experts in the field who deal with the topics of Fiat Currency and Bitcoin from first principles are provided so the user can try to compare the properties of each against each other.
-A link to the live version of the website can be found here ![My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
+A link to the live version of the website can be found here [My git hub pages link of live website](https://gfpkelly1986.github.io/beginners-bitcoin/) 
+
+#Table of Contents
+
+    - ### [Live Features](https://github.com/gfpkelly1986/beginners-bitcoin#live-features)
 
 # Live Features:
 - Header
